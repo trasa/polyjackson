@@ -1,0 +1,10 @@
+{
+  "header": {
+    "messageId":"headerId"
+  },
+  "body":{
+    "@messageType":"ExampleRequest",
+    "name":"foo",
+    "number":12345
+  }
+}
