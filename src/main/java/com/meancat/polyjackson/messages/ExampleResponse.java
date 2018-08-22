@@ -1,5 +1,8 @@
 package com.meancat.polyjackson.messages;
 
+/**
+ * An Example Response
+ */
 @CustomResponse
 public class ExampleResponse extends Response {
 

@@ -3,6 +3,14 @@ package com.meancat.polyjackson.messages;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
+/**
+ * The Holder for polymorphic Body objects.
+ *
+ * GameMessage consists of a (plain, nonpolymorphic) header
+ * and a body which can be of a type registered by scanning
+ * for CustomRequests and CustomResponses.
+ *
+ */
 public class GameMessage {
 
     private GameMessageHeader header;

@@ -11,6 +11,14 @@ import org.reflections.util.FilterBuilder;
 import java.net.URL;
 import java.util.Collection;
 
+/**
+ * Search through the packages indicated (by default this just searches
+ * com.meancat.polyjackson) and build a set of Reflections information
+ * for querying types.
+ *
+ * Used later by ObjectMapperFactory to find types that are annotated
+ * as requests and responses.
+ */
 public class ReflectionsFactory {
 
     public Reflections create() {

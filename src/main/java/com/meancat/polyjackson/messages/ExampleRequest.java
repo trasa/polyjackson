@@ -1,5 +1,8 @@
 package com.meancat.polyjackson.messages;
 
+/**
+ * An Example Request.
+ */
 @CustomRequest
 public class ExampleRequest extends Request {
     private String name;
