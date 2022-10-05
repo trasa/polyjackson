@@ -33,7 +33,7 @@
     </developers>
 
     <properties>
-        <jackson-version>2.10.0.pr1</jackson-version>
+        <jackson-version>2.12.6.1</jackson-version>
         <junit.version>4.13.1</junit.version>
         <reflections.version>0.9.11</reflections.version>
 
